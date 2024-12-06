@@ -15,8 +15,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
 export class ProdiComponent implements OnInit { // Mendeklarasikan class komponen dengan implementasi OnInit untuk inisialisasi.
   prodi: any[] = []; // Menyimpan data program studi.
   fakultas: any[] = []; // Menyimpan data fakultas untuk dropdown.
-  apiProdiUrl = 'https://belajar-express-generator.vercel.app/api/prodi'; // URL API untuk mengambil dan menambahkan data prodi.
-  apiFakultasUrl = 'https://belajar-express-generator.vercel.app/api/fakultas'; // URL API untuk mengambil data fakultas.
+  apiProdiUrl = 'https://express-gen.vercel.app/api/prodi'; // URL API untuk mengambil dan menambahkan data prodi.
+  apiFakultasUrl = 'https://express-gen.vercel.app/api/fakultas'; // URL API untuk mengambil data fakultas.
   isLoading = true; // Indikator loading data dari API.
   prodiForm: FormGroup; // Form group untuk formulir reaktif prodi.
   isSubmitting = false; // Indikator proses pengiriman data.

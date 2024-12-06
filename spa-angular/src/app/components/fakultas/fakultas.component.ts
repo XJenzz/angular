@@ -17,7 +17,7 @@ export class FakultasComponent implements OnInit {  // Deklarasi komponen dengan
   currentPage = 1;
   itemsPerPage = 5;
   
-  apiUrl = 'https://belajar-express-generator.vercel.app/api/fakultas';  // URL API yang digunakan untuk mendapatkan data fakultas
+  apiUrl = 'https://express-gen.vercel.app/api/fakultas';  // URL API yang digunakan untuk mendapatkan data fakultas
   // apiUrl = "https://crud-express-seven.vercel.app/api/fakultas";
   isLoading = true;  // Properti untuk status loading, digunakan untuk menunjukkan loader saat data sedang diambil
 

@@ -16,8 +16,8 @@ export class MahasiswaComponent implements OnInit {
   // Mendeklarasikan class komponen dengan implementasi OnInit untuk inisialisasi.
   mahasiswa: any[] = [];
   prodi: any[] = []; // Menyimpan data program studi dropdown.
-  apiMahasiswaUrl = 'https://belajar-express-generator.vercel.app/api/mahasiswa';
-  apiProdiUrl = 'https://belajar-express-generator.vercel.app/api/prodi'; // URL API untuk mengambil dan menambahkan data prodi.
+  apiMahasiswaUrl = 'https://express-gen.vercel.app/api/mahasiswa';
+  apiProdiUrl = 'https://express-gen.vercel.app/api/prodi'; // URL API untuk mengambil dan menambahkan data prodi.
   isLoading = true; // Indikator loading data dari API.
   mahasiswaForm: FormGroup; // Form group untuk formulir reaktif prodi.
   isSubmitting = false; // Indikator proses pengiriman data.
